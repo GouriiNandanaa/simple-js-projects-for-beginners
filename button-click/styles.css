@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+    width: calc(100vw - 40px);
+    height: calc(100vh - (40px + 10vh));
+
+}
+
+#main-area{
+    background-color: #FFD97D;
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+
+} 
+
+.title-container{
+    height: 13%;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    font-size: 6.5vh;
+    color: #C25448;
+}
+
+#random-btn{
+    background-color: #AAF683;
+    border: none;
+    padding: 10px 12px;
+    border: 1px solid black;
+    position: absolute;
+
+    /* left: 90%;
+    top: 80%; */
+}
